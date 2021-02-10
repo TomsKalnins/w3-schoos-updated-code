@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+body {
+    overflow:auto;
+}
+
+header {
+    height:80px;
+    width:100%;
+    background-color: lightgrey;
+    border-bottom:1px solid black;
+}
+
+header h1 {
+    display:inline-block;
+    font-size:40px;
+    color:grey;
+    line-height: 80px;
+}
+header span {
+    color:green;
+
+}
+
+
+#log-in {
+    display:inline-block;
+    float:right;
+    height:80px;
+    width:1000px;
+    
+}
+
+#log-in h3 ,button {
+    display:inline-block;
+}
+
+#log-in h3 {
+font-size:20px;
+font-weight:lighter;
+letter-spacing: 5px;
+line-height: 80px;
+margin-right:10px;
+position:relative;
+    left:330px;
+
+}
+#log-in button {
+    background-color:green;
+    font-size: larger;
+    color:white;
+    border:1px solid;
+    border-radius:5px;
+    font-size:25px;
+    position:relative;
+    left:330px;
+    padding:5px;
+    margin-right:10px;
+
+}
+
+
+#log-in button:hover {
+
+background-color:black;
+transition:2s;
+
+}
+
+
+header h1:hover {
+    color:green;
+    }
+}
+/*THis is all the code for the deader------------------
+--------------------------------------------------------
+------------------------------------*/
+
+
+#top-nav {
+    width:100%;
+    height:80px;
+    
+    z-index:100;    
+}
+#stick {
+    position:sticky;
+    top: 0em;
+}
+
+#top-nav nav ul {
+list-style: none;
+display:inline-block;
+background-color:green;
+width:100%;
+height:60px;
+}
+
+
+
+
+#top-nav nav ul li {
+    display:inline-block;
+    font-size:25px;
+    margin-left:5px;
+    margin-right:5px;
+    padding-left:5px;
+    padding-right:5px;
+    line-height:60px;
+    color:white;
+}
+#top-nav nav ul li a {
+    color:white;
+}
+
+#top-nav nav ul li:hover {
+    background-color:black;
+}
+/*all THIS IS THE TOP NAVIGTION CODE ------------------------------------>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+#left-nav {
+    display:inline-block;
+    background-color:light-grey;
+    width:200px;
+    height:100%;
+    position:fixed;
+    overflow:scroll;
+    padding-top:10px;
+}
+#left-nav h3 {
+text-align: center;
+font-size:20px;
+background-color:green;
+}
+
+
+#left-nav a {
+    text-align:center;
+    display:block;
+}
+
+#left-nav a:hover {
+    background-color:grey;
+}
+#left-nav a:active {
+    background-color:green;
+}
+/*THIS IS ALL THE lEFT NAVIGATION CODE---------------------------------------------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+*/
+#container {
+    width:1160px;
+    height:5000px;
+    background-color: cyan;
+    margin-left:200px;
+}
+
+
+#table {
+    height:500px;
+    width:100%;
+    background-color: lightpink;
+}
