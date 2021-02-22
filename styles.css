@@ -148,6 +148,11 @@ background-color:green;
 #left-nav a:active {
     background-color:green;
 }
+
+#space{
+   height:200px;
+   width:100%; 
+}
 /*THIS IS ALL THE lEFT NAVIGATION CODE---------------------------------------------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
 */
 #container {
@@ -158,8 +163,34 @@ background-color:green;
 }
 
 
-#table {
+#form-top {
     height:500px;
     width:100%;
-    background-color: lightpink;
+    background-color:beige;  
+}
+
+#form-top form {
+    background-color: lightgrey;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top:50px;
+    height:400px;
+
+}
+#container h1 {
+    text-align: center;
+    background-color: darkgrey;
+    margin-bottom:10px;
+
+    
+}
+form input {
+    font-size: 20px;
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+form #submit {
+    align-self:center;
 }
